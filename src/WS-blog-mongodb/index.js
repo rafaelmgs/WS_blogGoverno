@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const mongoose = require('mongoose');
-const Blog = require('./schema-blog');     // Importação do modelo blog
+const Blog = require('./schema-blog');
 
 const urlpai = 'https://www.gov.br/pt-br/noticias';
 
